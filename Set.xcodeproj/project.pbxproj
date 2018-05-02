@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E759384208BFB82008EFA33 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E75937F208BFB82008EFA33 /* Set.swift */; };
+		7E759386208BFB82008EFA33 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7E759381208BFB82008EFA33 /* Base.lproj */; };
+		7E759387208BFB82008EFA33 /* SetUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E759382208BFB82008EFA33 /* SetUI.swift */; };
+		7E759388208BFB82008EFA33 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E759383208BFB82008EFA33 /* Card.swift */; };
+		7E75938A208BFCAB008EFA33 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E759389208BFCAB008EFA33 /* CardView.swift */; };
+		7EB9BA4B2090E95B00CC18F1 /* SetGrid.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB9BA4A2090E95B00CC18F1 /* SetGrid.storyboard */; };
+		7EB9BA4D2090F11300CC18F1 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9BA4C2090F11300CC18F1 /* Grid.swift */; };
+		7EB9BA4F2091180200CC18F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6F30E20784FC5001AC920 /* ViewController.swift */; };
+		7EB9BA512092393600CC18F1 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9BA502092393600CC18F1 /* GameView.swift */; };
 		7EF6F30D20784FC5001AC920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6F30C20784FC5001AC920 /* AppDelegate.swift */; };
-		7EF6F30F20784FC5001AC920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6F30E20784FC5001AC920 /* ViewController.swift */; };
 		7EF6F31220784FC5001AC920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6F31020784FC5001AC920 /* Main.storyboard */; };
 		7EF6F31420784FC6001AC920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6F31320784FC6001AC920 /* Assets.xcassets */; };
 		7EF6F31720784FC6001AC920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6F31520784FC6001AC920 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E75937F208BFB82008EFA33 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		7E759381208BFB82008EFA33 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		7E759382208BFB82008EFA33 /* SetUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUI.swift; sourceTree = "<group>"; };
+		7E759383208BFB82008EFA33 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7E759389208BFCAB008EFA33 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7EB9BA4A2090E95B00CC18F1 /* SetGrid.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetGrid.storyboard; sourceTree = "<group>"; };
+		7EB9BA4C2090F11300CC18F1 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grid.swift; path = "../../ExampleCode/CS193P-Fall-2017-DEMO-master/Grid.swift"; sourceTree = "<group>"; };
+		7EB9BA502092393600CC18F1 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		7EF6F30920784FC5001AC920 /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF6F30C20784FC5001AC920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EF6F30E20784FC5001AC920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,10 +70,18 @@
 		7EF6F30B20784FC5001AC920 /* Set */ = {
 			isa = PBXGroup;
 			children = (
+				7EB9BA502092393600CC18F1 /* GameView.swift */,
+				7EB9BA4A2090E95B00CC18F1 /* SetGrid.storyboard */,
+				7EB9BA4C2090F11300CC18F1 /* Grid.swift */,
 				7EF6F30C20784FC5001AC920 /* AppDelegate.swift */,
+				7E759383208BFB82008EFA33 /* Card.swift */,
+				7E75937F208BFB82008EFA33 /* Set.swift */,
+				7E759382208BFB82008EFA33 /* SetUI.swift */,
+				7E759389208BFCAB008EFA33 /* CardView.swift */,
 				7EF6F30E20784FC5001AC920 /* ViewController.swift */,
 				7EF6F31020784FC5001AC920 /* Main.storyboard */,
 				7EF6F31320784FC6001AC920 /* Assets.xcassets */,
+				7E759381208BFB82008EFA33 /* Base.lproj */,
 				7EF6F31520784FC6001AC920 /* LaunchScreen.storyboard */,
 				7EF6F31820784FC6001AC920 /* Info.plist */,
 			);
@@ -123,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EF6F31720784FC6001AC920 /* LaunchScreen.storyboard in Resources */,
+				7EB9BA4B2090E95B00CC18F1 /* SetGrid.storyboard in Resources */,
 				7EF6F31420784FC6001AC920 /* Assets.xcassets in Resources */,
+				7E759386208BFB82008EFA33 /* Base.lproj in Resources */,
 				7EF6F31220784FC5001AC920 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF6F30F20784FC5001AC920 /* ViewController.swift in Sources */,
+				7E759387208BFB82008EFA33 /* SetUI.swift in Sources */,
+				7E759388208BFB82008EFA33 /* Card.swift in Sources */,
+				7E75938A208BFCAB008EFA33 /* CardView.swift in Sources */,
 				7EF6F30D20784FC5001AC920 /* AppDelegate.swift in Sources */,
+				7EB9BA4F2091180200CC18F1 /* ViewController.swift in Sources */,
+				7EB9BA4D2090F11300CC18F1 /* Grid.swift in Sources */,
+				7EB9BA512092393600CC18F1 /* GameView.swift in Sources */,
+				7E759384208BFB82008EFA33 /* Set.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWLGH75UFB;
 				INFOPLIST_FILE = Set/Info.plist;
@@ -289,6 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brandonwhichard.Set;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWLGH75UFB;
 				INFOPLIST_FILE = Set/Info.plist;
@@ -307,6 +342,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brandonwhichard.Set;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

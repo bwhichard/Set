@@ -18,7 +18,10 @@ struct SetUI {
     static let cardColors = [UIColor.red, UIColor.green, UIColor.purple]
     static let colorDictionary = Dictionary( uniqueKeysWithValues: zip(colorNames, cardColors) )
     
-    static let shadingNames = ["solid", "striped", "open"]
+    static let solid = "solid"
+    static let striped = "striped"
+    static let open = "open"
+    static let shadingNames = [solid, striped, open]
     static let cardShading = [-5, 0, 5 ]
     static let shadingDictionary = Dictionary( uniqueKeysWithValues: zip(shadingNames, cardShading) )
     
@@ -36,12 +39,11 @@ struct SetUI {
     static let cardBackgroundUIColor = UIColor.lightGray.cgColor
     static let selectedCardBorderColor = UIColor.blue.cgColor
     static let foundSetBackgroundUIColor = UIColor.yellow.cgColor
-    static let striped = shadingNames[1]
 }
 
 struct SetGameRules {
     static let firstDeal = 12
-    static let totalDeal = 24
+    static let totalDeal = 81
     static let regularDeal = 3
     static let setCount = 3
 }
